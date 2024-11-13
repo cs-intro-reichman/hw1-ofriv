@@ -2,6 +2,7 @@
 public class NumWords {
 	public static void main(String args[]) {
 	    int number = Integer.parseInt(args[0]);
+		//taking last integer and then pulling it out.
 		int ones = number % 10;
 		number = number / 10;
 		int tens = number % 10;
